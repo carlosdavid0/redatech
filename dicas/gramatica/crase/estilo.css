@@ -1,0 +1,16 @@
+.img-crase {
+    width: 100%;
+}
+
+p {
+    font-size: 15pt;
+}
+
+@media(min-width: 768px) {
+    .img-crase {
+        width: 420px
+    }
+    .cite {
+        text-align: right;
+    }
+}

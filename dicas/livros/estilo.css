@@ -1,0 +1,28 @@
+.proposito-livro {
+    text-align: justify;
+}
+
+article.livro {
+    margin-top: 15px;
+}
+
+.article-livro {
+    margin-top: 15px;
+}
+
+p.proposito-p {
+    font-size: 13pt;
+}
+
+.livro img {
+    width: 210px;
+}
+
+@media(min-width: 768px) {
+    article.livro {
+        display: flex;
+    }
+    .info-livro {
+        margin-left: 15px;
+    }
+}
