@@ -1,5 +1,5 @@
 main {
-    background-image: linear-gradient(25deg, #f7c685, #6900ea);
+    background-image: linear-gradient(55deg, #f78d85, #460199);
 }
 
 .landing-page {
@@ -21,7 +21,7 @@ nav {
     display: flex;
     align-items: flex-start;
     flex-direction: column;
-    height: 90vh;
+    height: 100vh;
 }
 
 .link-quebrado-mobile {
@@ -63,7 +63,7 @@ section.main {
 }
 
 .landing img {
-    width: 19rem;
+    width: 74%;
 }
 
 .compartilhar {

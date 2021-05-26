@@ -11,138 +11,593 @@
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
         integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-    <link rel="stylesheet" href="src/styles/global.css">
-    <link rel="stylesheet" href="src/styles/modelo.css">
+    <link rel="stylesheet" href="../../../src/styles/global.css">
+    <link rel="stylesheet" href="../../../src/styles/modelo.css">
+    <link rel="stylesheet" href="estilo.css">
 
 </head>
 
 <body>
     <main class="">
-        <header class="bg-primary container-fluid">
-            <nav class="navbar  navbar-expand-lg navbar-light text-light menu">
+        <header class="bg-primary">
+            <nav class="navbar container navbar-expand-lg navbar-light text-light menu">
                 <div class="touch">
                     <a class="navbar-brand" href="/">
-                        <img src="src/assets/Logo.png" alt="Redatech" class="img-fluid logo ">
+                        <img src="../../../src/assets/Logo.png" alt="Redatech" class="img-fluid logo ">
                     </a>
-                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#textoNavbar"
+                    <button class="navbar-toggler " type="button" data-toggle="collapse" data-target="#textoNavbar"
                         aria-controls="textoNavbar" aria-expanded="false" aria-label="Alterna navegação">
-                        <span class="navbar-toggler-icon"></span>
+                        <span class="navbar-toggler-icon text-white"></span>
                     </button>
                 </div>
 
                 <div class="collapse navbar-collapse" id="textoNavbar">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item active">
-                            <a class="nav-link text-light" href="/">Início<span class="sr-only">(Página
-                                    atual)</span></a>
+                            <a class="nav-link text-light" href="../../">Início<span class="sr-only"></span></a>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="./dicas/" id="navbarDropdownMenuLink"
+                            <a class="nav-link dropdown-toggle text-light" href="../dicas/" id="navbarDropdownMenuLink"
                                 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Dicas de Redação
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="./dicas/redacoes1000/">Redações Nota 1000</a>
-                                <a class="dropdown-item" href="./dicas/citacoes/">Citações filosóficas</a>
-                                <a class="dropdown-item" href="./dicas/gramatica/">Gramática Básica</a>
-                                <a class="dropdown-item" href="./dicas/livros/">Livros</a>
-                                <a class="dropdown-item" href="./dicas/canais/">Canais do Youtube</a>
-                                <a class="dropdown-item" href="./dicas/conectivos/">Conectivos</a>
+                                <a class="dropdown-item" href="../redacoes1000/">Redações Nota 1000</a>
+                                <a class="dropdown-item" href="../citacoes/">Citações filosóficas</a>
+                                <a class="dropdown-item" href="../gramatica/">Gramática Básica</a>
+                                <a class="dropdown-item" href="../livros/">Livros</a>
+                                <a class="dropdown-item" href="../canais/">Canais do Youtube</a>
+                                <a class="dropdown-item" href="../conectivos/">Conectivos</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="./o-que-colocar/"
+                            <a class="nav-link dropdown-toggle text-light" href="../o-que-colocar/"
                                 id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">
                                 O Que Colocar?
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="./o-que-colocar/introducao/">Introdução</a>
-                                <a class="dropdown-item" href="./o-que-colocar/desenvolvimento/">Desenvolvimento</a>
-                                <a class="dropdown-item" href="./o-que-colocar/conclusao/">Conclusão</a>
+                                <a class="dropdown-item" href="../../o-que-colocar/introducao/">Introdução</a>
+                                <a class="dropdown-item" href="../../o-que-colocar/desenvolvimento/">Desenvolvimento</a>
+                                <a class="dropdown-item" href="../../o-que-colocar/conclusao/">Conclusão</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="./temas/" id="navbarDropdownMenuLink"
+                            <a class="nav-link dropdown-toggle text-light" href="../temas/" id="navbarDropdownMenuLink"
                                 role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 Temas
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="./temas/semanal/">Tema da Semana</a>
-                                <a class="dropdown-item" href="./temas/anteriores/">Temas Anteriores ENEM</a>
+                                <a class="dropdown-item" href="../../temas/semanal/">Tema da Semana</a>
+                                <a class="dropdown-item" href="../../temas/anteriores/">Temas Anteriores ENEM</a>
                             </div>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle text-light" href="./competencias/"
+                            <a class="nav-link dropdown-toggle text-light" href="../../competencias/"
                                 id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true"
                                 aria-expanded="false">
                                 Competências
                             </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <a class="dropdown-item" href="./competencias/competencia1/">Competências 1</a>
-                                <a class="dropdown-item" href="./competencias/competencia2/">Competências 2</a>
-                                <a class="dropdown-item" href="./competencias/competencia3/">Competências 3</a>
-                                <a class="dropdown-item" href="./competencias/competencia4/">Competências 4</a>
-                                <a class="dropdown-item" href="./competencias/competencia5/">Competências 5</a>
+                                <a class="dropdown-item" href="../../competencias/competencia1/">Competências 1</a>
+                                <a class="dropdown-item" href="../../competencias/competencia2/">Competências 2</a>
+                                <a class="dropdown-item" href="../../competencias/competencia3/">Competências 3</a>
+                                <a class="dropdown-item" href="../../competencias/competencia4/">Competências 4</a>
+                                <a class="dropdown-item" href="../../competencias/competencia5/">Competências 5</a>
                             </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="./sobre/">Quem Somos?</a>
+                            <a class="nav-link text-light" href="../../sobre/">Quem Somos?</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-light" href="./envie-sua-redacao/">Envie Sua Redação</a>
+                            <a class="nav-link text-light" href="../../envie-sua-redacao/">Envie Sua Redação</a>
                         </li>
                     </ul>
 
                 </div>
             </nav>
         </header>
-        <section class="article-main container-fluid">
+
+        <section class="article-main container">
             <article>
                 <header>
-                    <h1>Titulo Artigo</h1>
-                    <h5>Breve descricão | <span>Data</span></h5>
+                    <h1>Conectivos</h1>
+                    <h5>Neste artigo você encontrará informações importantes sobre conectivos |
+                        <span>2021</span>
+                    </h5>
                 </header>
+                <hr />
                 <section class="conteudo-article">
-                    <p class="conteudo">
-                        Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of
-                        classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a
-                        Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin
-                        words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in
-                        classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32
-                        and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero,
-                        written in 45 BC. This book is a treatise on the theory of ethics, very popular during the
-                        Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in
-                        section 1.10.32.
-
-                        The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested.
-                        Sections 1.10.32 and 1.10.33 from "de Finibus Bonorum et Malorum" by Cicero are also reproduced
-                        in their exact original form, accompanied by English versions from the 1914 translation by H.
-                        Rackham.
+                    <h4>O que são conectivos ?</h4>
+                    <p>
+                        São palavras que unem orações num período frasal que permitem uma sequência de ideias.Esse papel
+                        é desempenhado por conjunções , e alguns advérbios e pronomes.
                     </p>
+                    <p>
+                        Essenciais no desenvolvimento de uma redação , os conectivos , uma vez má empregados , causam
+                        uma incapacidade de compreensão da mensagem
+                    </p>
+                    <hr>
+                    <h4>Mas calma e as conjunções ? Como uso ?</h4>
+                    <p>
+                        Elas são dependentes do tipo de relação entre as orações. Classificadas em :
+                    </p>
+                    <p>
+                        <strong><u>Coordenativas:</u></strong> Utilizadas para ligarem termos que apresentam uma mesma
+                        função sintática.
+                    </p>
+                    <p>
+                        <strong><u>Subordinativas:</u></strong> Usadas para ligarem orações que são dependentes em
+                        termos sintáticos.
+                    </p>
+
+                    <hr />
+
+                    <h4>
+                        Tipos de conectivos
+                    </h4>
+                    <p>
+                        <strong><u>1)Prioridade e relevância:</u></strong>
+                        <span class="explicar">
+                            Geralmente encontram-se no início das frases, apresentando uma ideia. Podem também atribuir
+                            importância ou relevância sobre o que foi apresentado. São eles:
+                        </span>
+                    </p>
+
+                    <p>
+                        Em primeiro lugar/
+
+                        Antes de mais nada/
+
+                        Antes de tudo/
+
+                        Em princípio/
+
+                        Primeiramente/
+
+                        Acima de tudo/
+
+                        Principalmente/
+
+                        Primordialmente/
+
+                        Sobretudo.
+                    </p>
+                    <hr>
+
+                    <p>
+                        <strong><u>2)Tempo , frequência ,duração , ordem ou sucessão:</u></strong>
+                        <span class='explicar'>situam o leitor na ordem dos acontecimentos apresentados pelo redator.
+                            São eles:</span>
+                    </p>
+
+                    <p>
+                        Então/
+
+                        Enfim/
+
+                        Logo/
+
+                        Logo depois/
+
+                        Imediatamente/
+
+                        Logo após/
+
+                        A princípio/
+
+                        No momento em que/
+
+                        Pouco antes/
+
+                        Pouco depois/
+
+                        Anteriormente/
+
+                        Posteriormente/
+
+                        Em seguida/
+
+                        Afinal/
+
+                        Por fim/
+
+                        Finalmente/
+
+                        Agora/
+
+                        Atualmente/
+
+                        Hoje/
+
+                        Frequentemente/
+
+                        Constantemente/
+
+                        Às vezes/
+
+                        Eventualmente/
+
+                        Por vezes/
+
+                        Ocasionalmente/
+
+                        Sempre/
+
+                        Raramente/
+
+                        Não raro/
+
+                        Ao mesmo tempo/
+
+                        Simultaneamente/
+
+                        Nesse ínterim/
+
+                        Nesse meio tempo/
+
+                        Nesse hiato
+
+                        Enquanto/
+
+                        Quando/
+
+                        Antes que/
+
+                        Depois que/
+
+                        Logo que/
+
+                        Sempre que/
+
+                        Assim que/
+
+                        Desde que/
+
+                        Todas as vezes que/
+
+                        Cada vez que/
+
+                        Apenas/
+
+                        Já.
+                    </p>
+                    <hr>
+                    <p>
+                        <strong><u>3)Semelhança , comparação ou conformidade:</u></strong>
+                        <span class='explicar'>
+                            Usados para estabelecer uma relação com a ideia ou conceito já apresentado. Podem também ser
+                            utilizados par apontar ideia de outros textos(intertextualidade). São eles:
+                        </span>
+                    </p>
+                    <p>
+                        Igualmente/
+
+                        Da mesma forma/
+
+                        Assim também/
+
+                        Do mesmo modo/
+
+                        Similarmente/
+
+                        Semelhantemente/
+
+                        Analogamente/
+
+                        Por analogia/
+
+                        De maneira idêntica/
+
+                        De conformidade com/
+
+                        De acordo com/
+
+                        Segundo/
+
+                        Conforme/
+
+                        Sob o mesmo ponto de vista/
+
+                        Tal qual/
+
+                        Tanto quanto/
+
+                        Como/
+
+                        Assim como/
+
+                        Como se/
+
+                        Bem como.
+                    </p>
+                    <hr />
+
+                    <p>
+                        <strong><u>4)Condição ou hipótese:</u></strong>
+                        <span class='explicar'>
+                            Usados em situações que abrangem circunstâncias que pode levar ao oferecimento de novas
+                            hipóteses futuramente.
+                        </span>
+
+                    </p>
+                    <p>Se/
+
+                        Caso/
+
+                        Eventualmente.</p>
+                    <hr />
+
+                    <p>
+                        <strong><u>5)Continuação ou adição:</u></strong>
+                        <span class='explicar'>
+                            Usados para adicionar algo no texto, e que isso esteja com relação ao que foi citado
+                            anteriormente . São eles :
+                        </span>
+                    </p>
+                    <p>
+                        Além disso/
+
+                        Demais/
+
+                        Ademais/
+
+                        Outrossim/
+
+                        Ainda mais/
+
+                        Por outro lado/
+
+                        Também/
+
+                        E/
+
+                        Nem/
+
+                        Não só/
+
+                        Como também/
+
+                        Não apenas/
+
+                        Bem como
+                    </p>
+                    <hr />
+
+                    <p>
+                        <strong><u>6)Dúvida:</u></strong>
+                        <span class='explicar'>Usados para inserir uma dúvida ou probabilidade dos acontecimentos. São
+                            eles :</span>
+                    </p>
+                    <p>
+                        Talvez/
+
+                        Provavelmente/
+
+                        Possivelmente/
+
+                        Quiçá/
+
+                        Quem sabe/
+
+                        É provável/
+
+                        Não certo/
+
+                        Se é que.
+                    </p>
+                    <hr />
+
+                    <p>
+                        <strong><u>7)Certeza ou ênfase:</u></strong>
+                        <span class='explicar'>Usados para enfatizar uma ideia apresentada no texto. São eles:</span>
+                    </p>
+                    <p>
+                        Por certo/
+
+                        Certamente/
+
+                        Indubitavelmente/
+
+                        Inquestionavelmente/
+
+                        Sem dúvida/
+
+                        Inegavelmente/
+
+                        Com certeza.
+                    </p>
+                    <hr />
+                    <p>
+                        <strong><u>8)Ilustração ou esclarecimento:</u></strong>
+                        <span class='explicar'>Usados com intuito de esclarecer alguns conceitos. São eles:</span>
+                    </p>
+                    <p>
+                        Por exemplo/
+
+                        Isto é/
+
+                        Ou seja/
+
+                        Aliás.
+                    </p>
+                    <hr />
+
+                    <p>
+                        <strong><u>9)Propósito, intenção ou finalidade:</u></strong>
+                        <span class='explicar'>Usados para apresentar o objetivo relacionado ao que deseja ser falado.
+                            São eles:</span>
+                    </p>
+                    <p>
+                        Com o fim de/
+
+                        A fim de/
+
+                        Como propósito de/
+
+                        Com a finalidade de/
+
+                        Com o intuito de/
+
+                        Para que/
+
+                        A fim de que/
+
+                        Para/
+
+                        Ao propósito.
+                    </p>
+                    <hr />
+
+                    <p>
+                        <strong><u>10)Conclusão ou resumo:</u></strong>
+                        <span class='explicar'>Usados na conclusão do parágrafo ou do texto. São eles:</span>
+                    </p>
+                    <p>
+                        Em suma/
+
+                        Em síntese/
+
+                        Enfim/
+
+                        Em resumo/
+
+                        Portanto/
+
+                        Assim/
+
+                        Dessa forma/
+
+                        Dessa maneira/
+
+                        Desse modo/
+
+                        Logo/
+
+                        Pois/
+
+                        Assim sendo/
+
+                        Nesse sentido.
+                    </p>
+                    <hr />
+
+                    <p>
+                        <strong><u>11)Causa, consequência e explicação:</u></strong>
+                        <span class='explicar'>Usados para explicar as causas e consequências de uma ação ou problema
+                            dito pelo redator.</span>
+                    </p>
+                    <p>
+                        Por consequência/
+
+                        Por conseguinte/
+
+                        Como resultado/
+
+                        Por isso/
+
+                        Por causa de/
+
+                        Em virtude de/
+
+                        Assim/
+
+                        De fato/
+
+                        Com efeito/
+
+                        Tão/
+
+                        Tanto/
+
+                        Tamanho/
+
+                        Que/
+
+                        Porque/
+
+                        Porquanto/
+
+                        Pois/
+
+                        Já que/
+
+                        Uma vez que/
+
+                        Visto que/
+
+                        Como (no sentido de porquê)/
+
+                        De tal forma que/
+
+                        Haja vista.
+                    </p>
+                    <hr />
+
+                    <p>
+                        <strong><u>12)Contraste, oposição, restrição e ressalva:</u></strong>
+                        <span class='explicar'>Usados para opor ideias ou conceitos em um período.São eles:</span>
+                    </p>
+                    <p>
+                        Pelo contrário/
+
+                        Em contraste com/
+
+                        Salvo/
+
+                        Exceto/
+
+                        Menos/
+
+                        Mas/
+
+                        Contudo/
+
+                        Todavia/
+
+                        Entretanto/
+
+                        No entanto/
+
+                        Embora/
+
+                        Apesar de/
+
+                        Ainda que/
+
+                        Mesmo que/
+
+                        Posto que/
+
+                        Ao passo que/
+
+                        Em contrapartida.
+                    </p>
+                    <hr />
+
                 </section>
             </article>
-        </section>
 
-        <footer class="  text-center text-white" style="background-color: #f1f1f1;">
+        </section>
+        <footer class="text-center text-white">
             <!-- Grid container -->
-            <div class=" pt-4">
+            <div class="container pt-4">
                 <!-- Section: Social media -->
                 <section class="mb-4">
                     <!-- Facebook -->
-                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"
                         data-mdb-ripple-color="dark"><i class="fab fa-facebook-f"></i></a>
 
                     <!-- Twitter -->
-                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"
                         data-mdb-ripple-color="dark"><i class="fab fa-twitter"></i></a>
 
                     <!-- Instagram -->
-                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"
                         data-mdb-ripple-color="dark"><i class="fab fa-instagram"></i></a>
 
                     <!-- Linkedin -->
-                    <a class="btn btn-link btn-floating btn-lg text-dark m-1" href="#!" role="button"
+                    <a class="btn btn-link btn-floating btn-lg text-white m-1" href="#!" role="button"
                         data-mdb-ripple-color="dark"><i class="fab fa-linkedin"></i></a>
 
                 </section>
@@ -151,13 +606,12 @@
             <!-- Grid container -->
 
             <!-- Copyright -->
-            <div class="text-center text-dark p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
                 © <span id="ano"></span> Copyright
-                <a class="text-dark" href="#">Redatech</a>
+                <a class="text-white" href="">Redatech</a>
             </div>
             <!-- Copyright -->
         </footer>
-
     </main>
 
 
@@ -170,7 +624,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
         integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
         crossorigin="anonymous"></script>
-    <script src="./src/scripts/timeFooter.js"></script>
+    <script src="../../../src/scripts/timeFooter.js"></script>
 </body>
 
 </html>
