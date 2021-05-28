@@ -1,0 +1,27 @@
+article header h5 {
+    color: grey;
+}
+
+article header span {
+    color: blue;
+}
+
+.article-main ul li {
+    text-transform: initial;
+    color: rgb(95, 82, 82);
+    font-size: 14pt;
+}
+
+.article-main {
+    margin-top: 20px;
+}
+
+ul li:first-letter {
+    text-transform: capitalize;
+}
+
+@media(max-width: 768px) {
+    p.conteudo {
+        max-width: 200px;
+    }
+}

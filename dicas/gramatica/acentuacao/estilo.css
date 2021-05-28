@@ -1,0 +1,36 @@
+.article-main ul li {
+    list-style: square;
+    text-transform: initial;
+    color: black;
+    font-size: 13pt;
+}
+
+img.img-table {
+    width: 100%;
+}
+
+p {
+    font-size: 15pt;
+}
+
+h3.red {
+    color: red !important;
+}
+
+.fonte {}
+
+@media(min-width: 768px) {
+    img.img-table {
+        width: 640px;
+    }
+    .verb:first-child {
+        margin-left: 0px;
+    }
+    .verb {
+        margin-left: 20px;
+    }
+    .flex-verb {
+        align-items: flex-start;
+        display: flex;
+    }
+}
