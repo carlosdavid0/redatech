@@ -3,7 +3,7 @@ main {}
 .landing-page {
     height: 100vh;
     padding: 15px;
-    background-image: linear-gradient(50deg, #6900ea, #f03a3a, #6900ea);
+    background-image: linear-gradient(50deg, #6900ea, #f08c3a, #6900ea);
 }
 
 nav {
