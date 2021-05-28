@@ -16,8 +16,8 @@ nav {
 }
 
 .landing-main {
-    margin-top: 0.5rem;
     height: 95vh;
+    margin-top: 0.5rem;
     display: flex;
     align-items: flex-start;
     flex-direction: column;
