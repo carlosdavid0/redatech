@@ -83,8 +83,13 @@ nav {
         max-width: 500px;
     }
     nav .login {
+        transition: 400ms;
         color: #f9f9f9;
         background-color: #6900ea;
+    }
+    nav .login:hover {
+        color: #ffffff;
+        background-color: #5901c4;
     }
     nav .login-l {
         background-color: #fff;
