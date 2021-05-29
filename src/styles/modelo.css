@@ -16,6 +16,10 @@ article header span {
     margin-top: 20px;
 }
 
+p {
+    font-size: 15pt;
+}
+
 ul li:first-letter {
     text-transform: capitalize;
 }
