@@ -82,6 +82,13 @@ nav {
         font-size: 4.3rem;
         max-width: 500px;
     }
+    nav .login {
+        color: #f9f9f9;
+        background-color: #6900ea;
+    }
+    nav .login-l {
+        background-color: #fff;
+    }
     .landing img {
         display: flex;
         width: 34rem;
