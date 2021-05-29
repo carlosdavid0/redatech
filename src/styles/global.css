@@ -32,7 +32,6 @@ nav .gene {
 @media(min-width: 768px) {
     .menu {
         display: flex;
-        justify-content: space-between;
     }
     img.logo {
         width: 200px;
