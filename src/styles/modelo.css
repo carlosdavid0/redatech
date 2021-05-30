@@ -16,6 +16,14 @@ article header span {
     margin-top: 20px;
 }
 
+img.img-competencias {
+    width: 100%;
+}
+
+p {
+    font-size: 15pt;
+}
+
 ul li:first-letter {
     text-transform: capitalize;
 }
@@ -23,5 +31,8 @@ ul li:first-letter {
 @media (min-width: 992px) {
     p.conteudo {
         max-width: 200px;
+    }
+    img.img-competencias {
+        width: 50%;
     }
 }
