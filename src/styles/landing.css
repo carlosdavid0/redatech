@@ -1,5 +1,3 @@
-main {}
-
 .landing-page {
     padding: 15px;
     background-image: linear-gradient(50deg, #6900ea, #b63af0, #6900ea);
@@ -64,7 +62,7 @@ nav {
     color: grey;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 992px) {
     .frase {
         padding-top: 10px;
         font-size: 1.4rem;

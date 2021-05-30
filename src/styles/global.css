@@ -29,7 +29,7 @@ nav .gene {
     display: none;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 992px) {
     .menu {
         display: flex;
     }
