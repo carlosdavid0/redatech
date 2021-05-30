@@ -62,7 +62,7 @@ nav {
     color: grey;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 992px) {
     .frase {
         padding-top: 0px;
         font-size: 1.4rem;
