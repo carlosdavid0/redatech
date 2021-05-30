@@ -20,7 +20,7 @@ ul li:first-letter {
     text-transform: capitalize;
 }
 
-@media(max-width: 768px) {
+@media (min-width: 992px) {
     p.conteudo {
         max-width: 200px;
     }
