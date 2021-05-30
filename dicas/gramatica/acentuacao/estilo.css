@@ -19,7 +19,7 @@ h3.red {
 
 .fonte {}
 
-@media(min-width: 768px) {
+@media (min-width: 992px) {
     img.img-table {
         width: 640px;
     }

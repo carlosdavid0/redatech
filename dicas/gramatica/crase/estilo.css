@@ -6,7 +6,7 @@ p {
     font-size: 15pt;
 }
 
-@media(min-width: 768px) {
+@media (min-width: 992px) {
     .img-crase {
         width: 420px
     }
